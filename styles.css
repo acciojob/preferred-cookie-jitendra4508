@@ -1,9 +1,23 @@
-:root {
-  --fontsize: 16px;
-  --fontcolor: #000000;
-}
 
-body {
-  font-size: var(--fontsize);
-  color: var(--fontcolor);
-}
+ :root {
+      --fontsize: 16px;
+      --fontcolor: #000000;
+    }
+
+    body {
+      font-size: var(--fontsize);
+      color: var(--fontcolor);
+      font-family: Arial, sans-serif;
+      padding: 40px;
+    }
+
+    label {
+      display: block;
+      margin: 10px 0 5px;
+    }
+
+    input[type="number"],
+    input[type="color"],
+    input[type="submit"] {
+      margin-bottom: 20px;
+    }
